@@ -1,0 +1,33 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class calc {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter a number");
+        int n = input.nextInt();
+        System.out.println("Enter another number");
+        int y = input.nextInt();
+
+        System.out.println("Product: " + (n*y));
+        System.out.println("Sum: " +(n+y));
+
+        System.out.println("Input a number to be squared");
+        int x = input.nextInt();
+
+        System.out.println("Square: " +(x*x));
+
+        Scanner user = new Scanner(System.in);
+        System.out.println("What is your first and middle name?");
+        String first = user.nextLine();
+
+        System.out.println("What is your last name?");
+        String last = user.nextLine();
+
+        System.out.println(first + " " + last);
+
+
+    }
+}
